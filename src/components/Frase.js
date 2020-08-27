@@ -38,7 +38,8 @@ const ContenedorFrase = styled.div`
 const Frase = ({frase}) => {
 
     const {quote,author}=frase;
-
+    
+    //Si el objeto viene vacio
     if(Object.keys(frase).length===0) return null;
     return ( 
         <ContenedorFrase>
