@@ -44,7 +44,9 @@ const consultarAPI= async()=>{
 
   return (
     <Contenedor>
-      <Frase/>
+      <Frase
+        frase={frase}
+      />
       <Boton
         onClick={consultarAPI}
       >
